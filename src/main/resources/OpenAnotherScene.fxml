@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="439.0" prefWidth="365.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ATM.Receipt">
+   <children>
+
+      <Label layoutX="15.0" layoutY="38.0" prefHeight="28.0" prefWidth="130.0" text="Reference No :" textFill="#d9260f">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="82.0" prefHeight="27.0" prefWidth="122.0" text="Sender Name :" textFill="#ef260b">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="349.0" prefHeight="27.0" prefWidth="113.0" text="Status :" textFill="#ef260b">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="173.0" prefHeight="26.0" prefWidth="122.0" text="Receiver Name :" textFill="#ef260b">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="220.0" prefHeight="30.0" prefWidth="171.0" text="Receiver Acc No :" textFill="#ef260b">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="266.0" text="Amount :" textFill="#ef260b">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="305.0" prefHeight="17.0" prefWidth="63.0" text="Date  :" textFill="#ef260b">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="79.0" fitWidth="85.0" layoutX="266.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@myAtmLogo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="ReferenceNo" layoutX="144.0" layoutY="38.0" prefHeight="28.0" prefWidth="203.0" text="Label" textFill="#ff0303" />
+      <Label layoutX="87.0" layoutY="349.0" prefHeight="27.0" prefWidth="145.0" text="SUCCESSFUL" textFill="#f63c20">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="SenderName" layoutX="139.0" layoutY="83.0" prefHeight="26.0" prefWidth="213.0" text="Label" textFill="#ff0303">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label fx:id="ReceiverName" layoutX="139.0" layoutY="172.0" prefHeight="28.0" prefWidth="213.0" text="Label" textFill="#ff0303">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="ReceiverAccNo" layoutX="160.0" layoutY="222.0" prefHeight="26.0" prefWidth="190.0" text="Label" textFill="#ff0303">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="Amount" layoutX="98.0" layoutY="270.0" prefHeight="25.0" prefWidth="213.0" text="Label" textFill="#ff0303">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="Date" layoutX="87.0" layoutY="304.0" prefHeight="28.0" prefWidth="235.0" text="Label" textFill="#ff0303">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="17.0" layoutY="131.0" prefHeight="26.0" prefWidth="130.0" text="Sender Acc No :" textFill="#d92b0c">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="SenderAccNo" layoutX="139.0" layoutY="131.0" prefHeight="26.0" prefWidth="213.0" text="Label" textFill="#ff0303">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
